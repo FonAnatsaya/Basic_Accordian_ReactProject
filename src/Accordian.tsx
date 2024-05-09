@@ -18,7 +18,7 @@ const Accordian: React.FC<AccordianProp> = ({ data, setData }) => {
       return prev.map((item: Data) => {
         return item.id === card.id
           ? { ...item, isToggled: !item.isToggled }
-          : { ...item, isToggled: false };
+          : item;
       });
     });
   };
