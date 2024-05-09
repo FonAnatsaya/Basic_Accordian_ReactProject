@@ -1,0 +1,25 @@
+.Accordian {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: aliceblue;
+}
+.Accordian__box {
+  background-color: #803d3b;
+  padding: 8px 20px;
+  margin: 10px;
+}
+.Accordian__cards {
+  width: 36%;
+}
+.Accordian__cards__question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Accordian__cards__question button {
+  height: 24px;
+}
