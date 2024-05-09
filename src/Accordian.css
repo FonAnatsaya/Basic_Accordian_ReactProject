@@ -13,7 +13,8 @@
   margin: 10px;
 }
 .Accordian__cards {
-  width: 36%;
+  width: 40%;
+  font-size: 22px;
 }
 .Accordian__cards__question {
   display: flex;
@@ -22,4 +23,10 @@
 }
 .Accordian__cards__question button {
   height: 24px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.15s ease, fill 0.15s ease;
+  &:hover {
+    background-color: #fcdc2a;
+  }
 }
